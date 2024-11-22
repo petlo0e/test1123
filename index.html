@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T1 SHOP</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <script defer src="js/jquery-3.7.1.min.js"></script>
+  <script defer src="js/swiper-bundle.min.js"></script>
+  <script defer src="js/common.js"></script>
+</head>
+<body>
+
+  <!-- 상단이벤트 -->
+  <div class="popup">
+    <div class="inner">
+      <a href="#">KOREA, REPUBLIC OF / KRW</a>
+      <a href="#">2024 LoL World Championship CHAMPIONS</a>
+      <ul>
+        <li><a href="#">LOGIN</a></li>
+        <li><a href="#">JOIN</a></li>
+        <li><a href="#">ORDER</a></li>
+      </ul>
+    </div><!-- inner -->
+  </div><!-- popup -->
+
+  <div id="wrap">
+    <header>
+      <div class="inner">
+        <nav>
+          <ul class="gnb">
+            <li>
+              <a href="#">NEW</a>
+            </li>
+            <li>
+              <a href="#">SHOP</a>
+              <ul class="dapth2">
+                <li><a href="#">ALL</a></li>
+                <li>
+                  <a href="#">TEMA KIT</a>
+                  <ul class="dapth3">
+                    <li><a href="#">UNIFORM</a></li>
+                    <li><a href="#">APPAREL</a></li>
+                    <li><a href="#">GIFTS & ACCESSORIES</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">COLLECTION</a>
+                  <ul class="dapth3">
+                    <li><a href="#">BASIC</a></li>
+                    <li><a href="#">SPECIAL</a></li>
+                    <li><a href="#">LEAGUE OF LEGENDS</a></li>
+                    <li><a href="#">VALORANT</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">COLLABORATION</a>
+                  <ul class="dapth3">
+                    <li><a href="#">BRAND</a></li>
+                    <li><a href="#">ARTIST</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">SALE</a>
+                </li>
+                
+              </ul>
+            </li>
+            <li>
+              <a href="#">COMMUNITY</a>
+              <ul class="dapth2">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">NOTICE</a></li>
+                <li><a href="#">EVENT</a></li>
+                <li><a href="#">REVIEW</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+          <!-- 모바일/태블릿 -->
+
+          <div class="ham"><img src="img/btn-ham.png" alt="메뉴열기"></div>
+
+          <div class="m-gnb-wrap">
+            <div class="login">
+              <span>KOREA, REPUBLIC OF / KRW</span>
+              <h2><a href="#">로그인</a></h2>
+            </div><!-- login -->
+            <ul class="mgnb">
+              <li>
+                <a href="#">NEW</a>
+              </li>
+              <li>
+                <a href="#">SHOP</a>
+                <ul class="m-dapth2">
+                  <li>
+                    <a href="#">TEMA KIT</a>
+                    <ul class="m-dapth3">
+                      <li><a href="#">UNIFORM</a></li>
+                      <li><a href="#">APPAREL</a></li>
+                      <li><a href="#">GIFTS & ACCESSORIES</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">COLLECTION</a>
+                    <ul class="m-dapth3">
+                      <li><a href="#">BASIC</a></li>
+                      <li><a href="#">SPECIAL</a></li>
+                      <li><a href="#">LEAGUE OF LEGENDS</a></li>
+                      <li><a href="#">VALORANT</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">COLLABORATION</a>
+                    <ul class="m-dapth3">
+                      <li><a href="#">BRAND</a></li>
+                      <li><a href="#">ARTIST</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">SALE</a>
+                  </li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#">COMMUNITY</a>
+                <ul class="m-dapth2">
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Q&A</a></li>
+                  <li><a href="#">NOTICE</a></li>
+                  <li><a href="#">EVENT</a></li>
+                  <li><a href="#">REVIEW</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="m-info-wrap">
+              <ul class="m-info">
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">주문조회</a></li>
+              </ul>
+              <ul class="m-lan">
+                <li><a href="#">KR</a></li>
+                <li><a href="#">GL</a></li>
+              </ul>
+            </div><!-- info-wrap -->
+          </div><!-- m-gnb-wrap -->
+          <div class="mgnb_bg"></div>  
+        </nav>
+        <h2><img src="img/logo.png" alt="t1로고"></h2>
+
+        <div class="info"> 
+           <div class="search">
+            <form>
+              <label for="text"><span>SEARCH</span></label>
+              <input type="text" id="text">
+              <a href="#"><span class="material-symbols-outlined">search</span></a>                           
+            </form>
+          </div><!-- search --> 
+
+          <div class="link">
+            <div class="lan">
+              <a href="#" class="img"><span class="material-symbols-outlined">language</span></a>
+              <ul class="lan_gnb">
+                <li><a href="#" class="lantxt">GL</a></li>
+                <li><a href="#" class="lantxt">NA</a></li>
+                <li><a href="#" class="lantxt">CH</a></li>
+              </ul>
+            </div>            
+            <a href="#" class="img"><span class="material-symbols-outlined">favorite</span></a>
+            <a href="#" class="img"><span class="material-symbols-outlined">local_mall</span></a> 
+          </div><!-- link -->                   
+        </div><!-- info -->        
+      </div><!-- inner -->
+    </header>
+
+    <div class="mv">
+      <video src="img/pc-video.mp4" autoplay muted loop playsinline></video>
+    </div><!-- mv -->
+
+    <section id="collection">
+      <div class="inner">
+        <h2>COLLECTION</h2>
+        <ul>
+          <li>
+            <a href="#"><img src="img/collection1.jpg" alt="컬렉션이미지1"></a>
+            <dl>
+              <dt>BASIC</dt>
+              <dd>기본에 충실한, T1만의 정체성</dd>
+            </dl>
+            <div class="more">
+              <span>자세히보기</span>
+              <img src="img/arrow.png" alt="더보기">
+            </div><!-- more -->        
+          </li>
+          <li>
+            <a href="#"><img src="img/collection2.jpg" alt="컬렉션이미지2"></a>
+            <dl>
+              <dt>PLAYERS</dt>
+              <dd>언제 어디서든 일상에서 T1 선수들과 함께</dd>
+            </dl>
+            <div class="more">
+              <span>자세히보기</span>
+              <img src="img/arrow.png" alt="더보기">
+            </div><!-- more -->   
+          </li>
+          <li>
+            <a href="#"><img src="img/collection3.jpg" alt="컬렉션이미지3"></a>
+            <dl>
+              <dt>COLLABORATION</dt>
+              <dd>T1의 특별한 만남, 색다른 시도</dd>
+            </dl>
+            <div class="more">
+              <span>자세히보기</span>
+              <img src="img/arrow.png" alt="더보기">
+            </div><!-- more -->   
+          </li>
+          <li>
+            <a href="#"><img src="img/collection4.jpg" alt="컬렉션이미지4"></a>
+            <dl>
+              <dt>TEAM KIT</dt>
+              <dd>오직 T1 FAN을 위한</dd>
+            </dl>
+            <div class="more">
+              <span>자세히보기</span>
+              <img src="img/arrow.png" alt="더보기">
+            </div><!-- more -->   
+          </li>
+        </ul>
+      </div><!-- inner -->     
+    </section><!-- collection -->
+
+    <section id="product">
+      <div class="inner">
+        <h2>BEST PRODUCT</h2>
+
+        <div class="tab_btn">
+          <ul>
+            <li>NEW</li>
+            <li>BEST</li>
+            <li>SALE</li>
+            <li>UNIFORM</li>
+          </ul>
+        </div><!-- tab_btn -->
+
+        <div class="tab_con">
+          <ul class="slide_wrap">
+            <li>
+              <div class="swiper newitem">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/new1.jpg" alt="new이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span class="item">T1 Logo Sweatshirt - Oatmeal</span>
+                        <p class="price">59,000원</p><!-- price -->
+                      </div><!-- txt_box -->
+                    </a>              
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/new2.jpg" alt="new이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span class="item">T1 Logo Windbreaker</span>
+                        <p class="price">109,000원</p><!-- price -->
+                      </div><!-- txt_box -->
+                    </a>              
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/new3.jpg" alt="new이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span class="item">T1 Hwarang Zip-Up Hoodie</span>
+                        <p class="price">89,000원</p><!-- price -->
+                      </div><!-- txt_box -->
+                    </a>              
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/new4.jpg" alt="new이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span class="item">T1 X REKKLES T-Shirt</span>
+                        <p class="price">42,000원</p><!-- price -->
+                      </div><!-- txt_box -->
+                    </a>              
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/new5.jpg" alt="new이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span class="item">T1 20th Anniv. Special Jacket</span>
+                        <p class="price">259,000원</p><!-- price -->
+                      </div><!-- txt_box -->
+                    </a>              
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/new6.jpg" alt="new이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span class="item">T1 Cheering Headband</span>
+                        <p class="price">16,000원</p><!-- price -->
+                      </div><!-- txt_box -->
+                    </a>              
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/new7.jpg" alt="new이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span class="item">T1 Logo Tumbler</span>
+                        <p class="price">24,000원</p><!-- price -->
+                      </div><!-- txt_box -->
+                    </a>              
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/new8.jpg" alt="new이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span class="item">GB Pro Slide T1 Edition V2 - White</span>
+                        <p class="price">59,000원</p><!-- price -->
+                      </div><!-- txt_box -->
+                    </a>              
+                  </li>
+                </ul>
+                <div class="swiper-scrollbar"></div>
+              </div>   
+            </li>
+            <li>
+              <div class="swiper bestitem">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/best1.jpg" alt="베스트이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2024 T1 Acrylic Phone Stand</span>
+                        <p class="price">18,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/best2.jpg" alt="베스트이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2023 World Champions T1 Desk Mat Ver.2</span>
+                        <p class="price">33,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/best3.jpg" alt="베스트이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2023 World Champions T1 Desk Mat Ver.1</span>
+                        <p class="price">33,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/best4.jpg" alt="베스트이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2024 T1 Muffler</span>
+                        <p class="price">49,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/best5.jpg" alt="베스트이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>T1 Acrylic Mini Figure</span>
+                        <p class="price">6,500원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/best6.jpg" alt="베스트이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2024 T1 Cheering Fan</span>
+                        <p class="price">4,500원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/best7.jpg" alt="베스트이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>T1 20th Anniv. Faker T-Shirt</span>
+                        <p class="price">42,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/best8.jpg" alt="베스트이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>T1 20th Anniv. Faker Keychain</span>
+                        <p class="price">15,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                </ul>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </li>
+            <li>
+              <div class="swiper saleitem">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/sale1.jpg" alt="세일이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>[SALE] T1 x NIKE Hoodie</span>
+                        <p class="price">85,000원</p>
+                        <p class="sale"><strong>50%</strong> 42,500원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/sale2.jpg" alt="세일이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>[SALE] T1 Summer Nylon Shorts</span>
+                        <p class="price">50,000원</p>
+                        <p class="sale"><strong>30%</strong> 35,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/sale3.jpg" alt="세일이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>[SALE] T1 Summer Sweat Shorts</span>
+                        <p class="price">46,000원</p>
+                        <p class="sale"><strong>30%</strong> 32,200원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/sale4.jpg" alt="세일이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>[SALE] T1 Galaxy Note 20 Case - White</span>
+                        <p class="price">24,000원</p>
+                        <p class="sale"><strong>70%</strong> 7,200원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/sale1.jpg" alt="세일이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>[SALE] T1 x NIKE Hoodie</span>
+                        <p class="price">85,000원</p>
+                        <p class="sale"><strong>50%</strong> 42,500원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/sale2.jpg" alt="세일이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>[SALE] T1 Summer Nylon Shorts</span>
+                        <p class="price">50,000원</p>
+                        <p class="sale"><strong>30%</strong> 35,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/sale3.jpg" alt="세일이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>[SALE] T1 Summer Sweat Shorts</span>
+                        <p class="price">46,000원</p>
+                        <p class="sale"><strong>30%</strong> 32,200원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/sale4.jpg" alt="세일이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>[SALE] T1 Galaxy Note 20 Case - White</span>
+                        <p class="price">24,000원</p>
+                        <p class="sale"><strong>70%</strong> 7,200원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>                
+                
+                </ul>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </li>
+            <li>
+              <div class="swiper uniform">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/uniform1.jpg" alt="유니폼이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2024 T1 Uniform Jersey</span>
+                        <p class="price">119,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/uniform2.jpg" alt="유니폼이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2024 T1 Uniform DIY Marking<br>Kit</span>
+                        <p class="price">10,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/uniform3.jpg" alt="유니폼이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2024 T1A Uniform DIY Marking<br>Kit</span>
+                        <p class="price">10,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/uniform4.jpg" alt="유니폼이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2024 T1 Uniform Jersey Sponsor Marking Kit</span>
+                        <p class="price">11,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/uniform5.jpg" alt="유니폼이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>T1 Cheering Scarf</span>
+                        <p class="price">35,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/uniform1.jpg" alt="유니폼이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2024 T1 Uniform Jersey</span>
+                        <p class="price">119,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/uniform2.jpg" alt="유니폼이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2024 T1 Uniform DIY Marking<br>Kit</span>
+                        <p class="price">10,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/uniform3.jpg" alt="유니폼이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2024 T1A Uniform DIY Marking<br>Kit</span>
+                        <p class="price">10,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/uniform4.jpg" alt="유니폼이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>2024 T1 Uniform Jersey Sponsor Marking Kit</span>
+                        <p class="price">11,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/uniform5.jpg" alt="유니폼이미지">
+                      </div><!-- img_box -->
+                      <div class="txt_box">
+                        <span>T1 Cheering Scarf</span>
+                        <p class="price">35,000원</p>
+                      </div><!-- txt_box -->
+                    </a>
+                  </li>
+                </ul>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </li>
+          </ul> 
+        </div><!-- tab_con -->   
+      </div><!-- inner -->
+    </section><!-- #product -->
+
+    <section id="ranking">
+      <div class="inner">
+        <h2>CATEGORY RANKING</h2>
+
+        <div class="slide_wrap">
+
+          <ul class="rank_txt">
+            <li>
+              <a href="#" class="txt"><strong>1.</strong>[PRE-ORDER] 2024 T1 World Champions Uniform Jacket</a>
+            </li>
+            <li>
+              <a href="#" class="txt"><strong>2.</strong>[PRE-ORDER] 2024 T1 World Champions Uniform Jersey</a>
+            </li>
+            <li>
+              <a href="#" class="txt"><strong>3.</strong>[PRE-ORDER] 2024 T1 World Champions Badge</a>
+            </li>
+            <li>
+              <a href="#" class="txt"><strong>4.</strong>[PRE-ORDER] T1 Logo Badge - V5 Champions Edition</a>
+            </li>
+            <li>
+              <a href="#" class="txt"><strong>5.</strong>[PRE-ORDER] 2024 T1 World Champions ZOFGK Keycap</a>
+            </li>
+          </ul>
+
+
+
+          <div class="swiper rank">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <a href="#">
+                  <div class="img_box">
+                    <img src="img/ranking1.jpg" alt="순위이미지">
+                  </div><!-- img_box -->
+                  <div class="txt_box">
+                    <span>[PRE-ORDER] 2024 T1 World Champions Uniform Jacket</span>
+                    <p class="price">189,000원</p>
+                  </div><!-- txt_box -->
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <div class="img_box">
+                    <img src="img/ranking2.jpg" alt="순위이미지">
+                  </div><!-- img_box -->
+                  <div class="txt_box">
+                    <span>[PRE-ORDER] 2024 T1 World Champions Uniform Jersey</span>
+                    <p class="price">129,000원</p>
+                  </div><!-- txt_box -->
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <div class="img_box">
+                    <img src="img/ranking3.jpg" alt="순위이미지">
+                  </div><!-- img_box -->
+                  <div class="txt_box">
+                    <span>[PRE-ORDER] 2024 T1 World Champions Badge</span>
+                    <p class="price">12,000원</p>
+                  </div><!-- txt_box -->
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <div class="img_box">
+                    <img src="img/ranking4.jpg" alt="순위이미지">
+                  </div><!-- img_box -->
+                  <div class="txt_box">
+                    <span>[PRE-ORDER] T1 Logo Badge - V5 Champions Edition</span>
+                    <p class="price">10,000원</p>
+                  </div><!-- txt_box -->
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">
+                  <div class="img_box">
+                    <img src="img/ranking5.jpg" alt="순위이미지">
+                  </div><!-- img_box -->
+                  <div class="txt_box">
+                    <span>[PRE-ORDER] 2024 T1 World Champions ZOFGK Keycap</span>
+                    <p class="price">115,000원</p>
+                  </div><!-- txt_box -->
+                </a>
+              </li>
+            </ul>
+            <div class="swiper-scrollbar"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div><!-- ranklist -->
+
+        <a href="#" class="btn_more">랭킹 전체보기+</a>
+        
+      </div><!-- inner -->
+    </section><!-- #ranking -->
+
+    <section id="review">
+      <div class="inner">
+        <h2>REVIEW</h2>
+      </div><!-- inner -->
+      <div class="swiper reviewlist">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <a href="#">
+              <div class="img_box">
+                <img src="img/review1.jpg" alt="리뷰이미지">
+              </div><!-- img_box -->
+              <div class="txt_box">
+                <strong>[SALE] T1 x NIKE Hoodie</strong>
+                <span>T1 우승기념! 너무 좋아요~~~~~~~</span>
+                <p class="star">★★★★★</p>
+              </div><!-- txt_box -->
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <div class="img_box">
+                <img src="img/review2.jpg" alt="리뷰이미지">
+              </div><!-- img_box -->
+              <div class="txt_box">
+                <strong>2024 T1 Uniform DIY Marking Kit</strong>
+                <span>프리오더 2024 월즈 재킷</span>
+                <p class="star">★★★★★</p>
+              </div><!-- txt_box -->
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <div class="img_box">
+                <img src="img/review3.jpg" alt="리뷰이미지">
+              </div><!-- img_box -->
+              <div class="txt_box">
+                <strong>T1 Logo Mini Cross Bag</strong>
+                <span>실물이 더이쁘고 이뻐요 간편하게 들고다닐수 있어서 좋아요</span>
+                <p class="star">★★★★★</p>
+              </div><!-- txt_box -->
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <div class="img_box">
+                <img src="img/review4.jpg" alt="리뷰이미지">
+              </div><!-- img_box -->
+              <div class="txt_box">
+                <strong>2024 T1 World Champions Uniform Jacket</strong>
+                <span>이쁘고 깔끔하고 좋아요</span>
+                <p class="star">★★★★★</p>
+              </div><!-- txt_box -->
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <div class="img_box">
+                <img src="img/review5.jpg" alt="리뷰이미지">
+              </div><!-- img_box -->
+              <div class="txt_box">
+                <strong>T1 Logo Badge - Champions Edition</strong>
+                <span>아주아주 퀼리티좋고 이뻐요</span>
+                <p class="star">★★★★★</p>
+              </div><!-- txt_box -->
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <div class="img_box">
+                <img src="img/review6.jpg" alt="리뷰이미지">
+              </div><!-- img_box -->
+              <div class="txt_box">
+                <strong>2023 World Champions T1 Desk Mat Ver.2</strong>
+                <span>종신해 제오페구케</span>
+                <p class="star">★★★★★</p>
+              </div><!-- txt_box -->
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <div class="img_box">
+                <img src="img/review7.jpg" alt="리뷰이미지">
+              </div><!-- img_box -->
+              <div class="txt_box">
+                <strong>T1 Logo Sweatshirt - Oatmeal</strong>
+                <span>올해 최고의 옷입니다 너무 좋아요</span>
+                <p class="star">★★★★★</p>
+              </div><!-- txt_box -->
+            </a>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="btn_more">리뷰 전체보기+</a>
+    </section><!-- #review -->
+
+    <section id="instargram">
+      <div class="inner">
+        <h2>INSTAGRAM</h2>
+      </div><!-- inner -->
+      
+      <div class="swiper snslist">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide"><a href="#"><img src="img/insta1.jpg" alt="인스타이미지"></a></li>
+          <li class="swiper-slide"><a href="#"><img src="img/insta2.jpg" alt="인스타이미지"></a></li>
+          <li class="swiper-slide"><a href="#"><img src="img/insta3.jpg" alt="인스타이미지"></a></li>
+          <li class="swiper-slide"><a href="#"><img src="img/insta4.jpg" alt="인스타이미지"></a></li>
+          <li class="swiper-slide"><a href="#"><img src="img/insta5.jpg" alt="인스타이미지"></a></li>
+          <li class="swiper-slide"><a href="#"><img src="img/insta6.jpg" alt="인스타이미지"></a></li>
+          <li class="swiper-slide"><a href="#"><img src="img/insta7.jpg" alt="인스타이미지"></a></li>
+          <li class="swiper-slide"><a href="#"><img src="img/insta8.jpg" alt="인스타이미지"></a></li>
+          <li class="swiper-slide"><a href="#"><img src="img/insta9.jpg" alt="인스타이미지"></a></li>
+          <li class="swiper-slide"><a href="#"><img src="img/insta10.jpg" alt="인스타이미지"></a></li>
+          <li class="swiper-slide"><a href="#"><img src="img/insta11.jpg" alt="인스타이미지"></a></li>
+          <li class="swiper-slide"><a href="#"><img src="img/insta12.jpg" alt="인스타이미지"></a></li>
+        </ul>
+      </div><!-- snslist -->
+    </section><!-- #instargram -->
+
+    <footer>
+      <div class="inner">
+
+        <div class="desktop">
+          <div class="flogo"><a href="#"><img src="img/logo.png" alt="티원로고"></a></div><!-- flogo -->
+        <div class="finfo">
+          <ul class="top">
+            <li><a href="#">COMMUNITY</a></li>
+            <li><a href="#">NOTICE</a></li>
+            <li><a href="#">REVIEW</a></li>
+            <li><a href="#">Q&A</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">EVENT</a></li>
+          </ul>
+          <ul class="mid">
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보취급방침</a></li>
+          </ul>
+        </div><!-- finfo -->
+        <address>
+          <p>
+            <span>회사명 : 에스케이텔레콤씨에스티원 주식회사</span>
+            <span>대표 : 조세프패트릭마쉬</span>
+            <span>사업자번호 : 614-81-05875</span>
+            <span>통신판매업신고번호 : 제 2021-서울강남-02732 호</span>
+            <span>주소 : 서울특별시 강남구 선릉로 627 (논현동) T1</span>
+            <span>개인정보보호책임자 : 안웅기</span>
+          </p>
+          <p>
+            <span>고객상담 : 02-6009-2500</span>
+            <span>메일 : shop@t1.gg</span>
+            <span>운영시간: 오전 10:00 ~ 오후 19:00</span>
+            <span>(점심시간 : 12:00 ~ 13:00 토요일, 일요일, 공휴일 휴무)</span>
+          </p>          
+
+        </address>
+        <div class="snslink">
+          <ul>
+            <li><a href="#"><img src="img/facebook.svg" alt="sns이미지"></a></li>
+            <li><a href="#"><img src="img/x.svg" alt="sns이미지"></a></li>
+            <li><a href="#"><img src="img/insta.svg" alt="sns이미지"></a></li>
+          </ul>
+        </div><!-- snslink -->
+        <p class="copy">COPYRIGHT&copy;2024 T1 SHOP. ALL RIGHTS RESERVERED.</p>
+        </div><!-- desktop -->     
+
+        <div class="mobile">
+          <div class="m_sns">
+            <ul>
+              <li><a href="#"><img src="img/mfacebook.png" alt="sns이미지"></a></li>
+              <li><a href="#"><img src="img/mx.png" alt="sns이미지"></a></li>
+              <li><a href="#"><img src="img/minsta.png" alt="sns이미지"></a></li>
+            </ul>
+          </div><!-- m_sns -->
+          <ul class="m_menu">
+            <li>
+              <dl>
+                <dt>회사정보</dt>
+                <dd class="dapth_txt">
+                  회사명 : 에스케이텔레콤씨에스티원 주식회사<br>
+                  대표 : 조세프패트릭마쉬<br>
+                  주소 : 서울특별시 강남구 선릉로 627 (논현동) T1<br>
+                  사업자번호 : 614-81-05875<br>
+                  통신판매업신고번호 : 제 2021-서울강남-02732 호<br>
+                  개인정보보호책임자 : 안웅기
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>고객정보</dt>
+                <dd class="dapth_txt">
+                  02-6009-2500<br>
+                  메일 : shop@t1.gg<br>
+                  운영시간 : 오전 10:00 ~ 오후 18:00<br>
+                  (점심시간 : 12:00 ~ 13:00 토요일, 일요일, 공휴일 휴무)
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>이용약관</dt>
+                <dd class="dapth_txt">
+                  <a href="#">이용약관</a>
+                  <a href="#">개인정보취급방침</a>
+                </dd>
+              </dl>
+            </li>
+          </ul>
+          <p class="copy">COPYRIGHT&copy;2024 T1 SHOP. ALL RIGHTS RESERVERED.</p>
+        </div><!-- mobile -->
+        
+        
+
+
+
+      </div><!-- inner -->   
+
+
+
+
+
+    </footer>
+    
+
+
+
+
+
+  </div><!-- #wrap -->
+  
+</body>
+</html>
